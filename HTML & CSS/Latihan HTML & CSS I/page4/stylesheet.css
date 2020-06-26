@@ -1,0 +1,127 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+/* Ketik code Anda dibawah */
+h3 {
+  font-size: 28px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #dee7ec;
+}
+
+.container {
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.header {
+  background-color: #26d0c9;
+  height: 90px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header .navbar-brand {
+  font-size: 36px;
+  margin-right: 40px;
+}
+
+.header .navbar-nav {
+  display: flex;
+}
+
+.header .nav-item {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+section {
+  padding-top: 100px;
+}
+
+.intro h1 {
+  font-size: 140px;
+  text-transform: uppercase;
+}
+
+.intro h1 span {
+  color: #ff4a4a;
+}
+
+.intro h2 {
+  font-size: 60px;
+}
+
+.lessons .lessons-list {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.lessons .lesson {
+  margin-right: 40px;
+}
+
+.lessons p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contact form {
+  margin-top: 50px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea,
+.contact button{
+  padding: 20px;
+  display: block;
+  border: 1px solid #dee7ec;
+  font-size: 18px;
+  width: 400px;
+}
+
+.contact p {
+  margin-top: 40px;
+}
+
+.contact button {
+  border: none;
+  margin-top: 10px;
+  background-color: #dee7ec;
+  color: #889eab;
+  margin-bottom: 30px;
+}
